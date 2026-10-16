@@ -1,4 +1,4 @@
-# ========================= PARTE 1/4 =========================
+
 # IMPORTAÇÕES, BANCO DE DADOS E CONFIGURAÇÕES
 
 import sqlite3
@@ -127,8 +127,6 @@ class GerenciadorFinanceiro(ctk.CTk):
         self.criar_area_principal()
         self.atualizar_tudo()
 
-    # As próximas partes continuam dentro desta classe.
-    # ========================= PARTE 2/4 =========================
 # MENU LATERAL, CABEÇALHO, CARTÕES E FORMULÁRIO
 
 
@@ -452,8 +450,6 @@ class GerenciadorFinanceiro(ctk.CTk):
             row=1, column=0, sticky="nsew",
             padx=10, pady=(0, 10)
         )
-
-# ========================= PARTE 3/4 =========================
 # CADASTRO, VALIDAÇÃO, EDIÇÃO E EXCLUSÃO DE TRANSAÇÕES
 
 
@@ -745,7 +741,7 @@ class GerenciadorFinanceiro(ctk.CTk):
         )
         self.atualizar_tudo()
 
-# ========================= PARTE 4/4 =========================
+
 # ATUALIZAÇÃO DA INTERFACE, GRÁFICO E EXECUÇÃO DO PROGRAMA
 
 
